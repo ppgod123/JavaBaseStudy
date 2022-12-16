@@ -52,6 +52,19 @@ public class Constructor {
             System.out.println("发件人:" + this.name +"\t"+ "发件时间:"+getDateTime() );
         }
     }
+    //函数方法重载
+    public void setScore(String kk){
+        System.out.println(kk);
+    }
+    public void setScore(String kk,String hh){
+        System.out.println(kk);
+    }
+    public void setScore(String hh,int kk){
+        System.out.println(kk);
+    }
+    public void setScore(int kk){
+        System.out.println(kk);
+    }
 
     public static void main(String[] args) {
        Constructor constructor1= new Constructor();
