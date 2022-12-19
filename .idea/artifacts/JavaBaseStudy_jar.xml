@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="JavaBaseStudy:jar">
+    <output-path>$USER_HOME$/Desktop</output-path>
+    <root id="archive" name="JavaBaseStudy.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$USER_HOME$/Desktop/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="JavaBaseStudy" />
+    </root>
+  </artifact>
+</component>
