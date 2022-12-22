@@ -2,10 +2,10 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class Constructor {
-    public String name;
-    public int age;
-    public String gender;
-    public int getAge() {
+    private String name;
+    private int age;
+    private String gender;
+    private int getAge() {
         return age;
     }
 
