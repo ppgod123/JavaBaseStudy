@@ -1,3 +1,5 @@
+import javax.swing.*;
+
 public class Student extends Human{
     public Student(){
         super("含笑半步颠");//父类带参构造对象引用
