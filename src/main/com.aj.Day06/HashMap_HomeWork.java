@@ -4,6 +4,7 @@ import java.util.Map;
 import java.util.Set;
 
 public class HashMap_HomeWork {
+    private static String apple = "haha";
     public static void main(String[] args) {
         HashMap<String,ArrayList<Pupil>> hashMap= new HashMap<>();
         ArrayList<Pupil> list = new ArrayList<Pupil>();
@@ -40,6 +41,14 @@ public class HashMap_HomeWork {
                 System.out.println(pup.toString());
             }
         }
-
+        sayhello1();
     }
+    public void sayhello(){
+        System.out.println("非静态方法");
+    }
+    public static void sayhello1(){
+        System.out.println("静态方法");
+        System.out.println(apple);
+    }
+
 }
