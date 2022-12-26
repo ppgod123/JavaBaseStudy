@@ -59,20 +59,20 @@ public class ArrayListDemo
          */
              Iterator<Pupil> iterator= arrayList.iterator();
              while(iterator.hasNext()){
+                 Pupil pu = iterator.next();
                  //System.out.println(iterator.next().getName()+"\t"+iterator.next().getAge()+"\t"+iterator.next().getGender());
-                 System.out.print(iterator.next().getName()+"\t");
+                 System.out.println(pu.getName()+"\t"+pu.getAge()+"\t"+pu.getGender());
              }
-               System.out.println();
-             Iterator<Pupil> iterator1= arrayList.iterator();
-             while(iterator1.hasNext()){
-                 //System.out.println(iterator.next().getName()+"\t"+iterator.next().getAge()+"\t"+iterator.next().getGender());
-                 System.out.print(iterator1.next().getAge()+"\t");
-             }
-               System.out.println();
-             Iterator<Pupil> iterator2= arrayList.iterator();
-             while(iterator2.hasNext()){
-                 //System.out.println(iterator.next().getName()+"\t"+iterator.next().getAge()+"\t"+iterator.next().getGender());
-                 System.out.print(iterator2.next().getGender()+"\t");
-             }
+//             Iterator<Pupil> iterator1= arrayList.iterator();
+//             while(iterator1.hasNext()){
+//                 //System.out.println(iterator.next().getName()+"\t"+iterator.next().getAge()+"\t"+iterator.next().getGender());
+//                 System.out.print(iterator1.next().getAge()+"\t");
+//             }
+//               System.out.println();
+//             Iterator<Pupil> iterator2= arrayList.iterator();
+//             while(iterator2.hasNext()){
+//                 //System.out.println(iterator.next().getName()+"\t"+iterator.next().getAge()+"\t"+iterator.next().getGender());
+//                 System.out.print(iterator2.next().getGender()+"\t");
+//             }
     }
 }

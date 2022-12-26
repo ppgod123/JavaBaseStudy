@@ -1,8 +1,18 @@
 public class Pupil {
-
     private String name;
     private  int age;
     private String gender;
+
+    public Pupil(String name, int age, String gender) {
+        this.name = name;
+        this.age = age;
+        this.gender = gender;
+    }
+
+    public Pupil() {
+    }
+
+
 
 
 
@@ -31,12 +41,10 @@ public class Pupil {
     }
 
 
-    public void Pupil(){
 
-    }
-    public void Pupil(String name,int age,String gender){
-        this.name = name;
-        this.age = age;
-        this.gender = gender;
+
+
+    public String toString(){
+        return  "姓名:"+this.name+"\t"+"年龄:"+this.age+"\t"+"性别:"+this.gender;
     }
 }
