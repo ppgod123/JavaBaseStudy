@@ -4,6 +4,7 @@ public class Log4jTester {
      public static Logger logger = Logger.getLogger(Log4jTester.class);
     public static void main(String[] args) {
           test();
+        System.out.println("Log4j.test");
     }
     public static void test(){
         logger.debug("debug级别日志");
