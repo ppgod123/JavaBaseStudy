@@ -1,0 +1,4 @@
+[mybatis_study][DEBUG] [2022-12-27 09:58:06] Log4jTester.test(10) | debug级别日志
+[mybatis_study][INFO] [2022-12-27 09:58:06] Log4jTester.test(11) | info级别日志
+[mybatis_study][WARN] [2022-12-27 09:58:06] Log4jTester.test(12) | 警告级别日志
+[mybatis_study][ERROR] [2022-12-27 09:58:06] Log4jTester.test(13) | 错误级别日志
