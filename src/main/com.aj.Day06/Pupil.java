@@ -13,9 +13,6 @@ public class Pupil {
     }
 
 
-
-
-
     public String getName() {
         return name;
     }

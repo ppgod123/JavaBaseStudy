@@ -1,28 +1,5 @@
-name: steven
-phone: 18********5
-company: "******"
-teamMember:
- - 于**
- - 徐**
- - 索**
-hobbies:
- foods:
-  - 黄焖鸡米饭
-  - 黄焖排骨
-  - 五花肉
-  - 热干面
- sports:
-  - 羽毛球
-  - 骑车
-  - 跑步
- works:
-  - coding
-  - repairComputer
-working-skills:
- - Java
- - Hadoop
- - hive
- - spark
- - flink
- - kafka
- - HBASE
+JDBC.driver: com.mysql.jdbc.Driver
+JDBC.url: "jdbc:mysql://127.0.0.1:3306/shipping_local?autoReconnect=true&autoReconnectForPools=true&useUnicode=true&characterEncoding=utf8"
+JDBC.username: shipping
+JDBC.password: shipping
+JDBC.autoCommit: false
