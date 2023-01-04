@@ -28,7 +28,7 @@ public class YamlDemo {
         Set<String> keys = map.keySet();
         System.out.println(keys);
         for (String key:keys) {
-            //Map<String, Object> val = map.get(key);
+            //Map<String, Object> stringObjectMap = map.get(key);
             System.out.println("Key:"+key+"\t"+"Value:"+map.get(key));
         }
     }

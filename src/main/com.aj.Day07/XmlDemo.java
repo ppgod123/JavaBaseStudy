@@ -27,4 +27,8 @@ public class XmlDemo {
             System.out.println(ele.element("version").getText());
         }
     }
+    /**
+     * 第二种遍历方式
+     */
+
 }
