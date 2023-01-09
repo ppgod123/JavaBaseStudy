@@ -24,9 +24,11 @@ public class Dependency {
 
     public void setVersion(String version) {
         this.version = version;
+
     }
 
     public Dependency() {
+        //System.out.println("Dependcy.depdendency()");
     }
     public Dependency(String groupId, String artifactId, String version) {
         this.groupId = groupId;
@@ -37,5 +39,4 @@ public class Dependency {
     public String toString(){
         return "groupId:"+this.groupId+"\tartifactId:"+this.artifactId+"\tversion:"+this.version;
     }
-
 }
