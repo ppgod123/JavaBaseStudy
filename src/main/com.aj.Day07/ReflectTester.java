@@ -11,7 +11,7 @@ public class ReflectTester {
         /**
          * 获取类字节码方式二
          */
-       //Class<Dependency> clazz1 = (Class<Dependency>) Class.forName("com.aj.Day07.Dependency");
+       Class<Dependency> clazz1 = (Class<Dependency>) Class.forName("HelloWorld");
         /***
          * 创建类对象
          */
