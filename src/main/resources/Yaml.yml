@@ -1,5 +1,5 @@
 JDBC.driver: com.mysql.jdbc.Driver
-JDBC.url: "jdbc:mysql://127.0.0.1:3306/shipping_local?autoReconnect=true&autoReconnectForPools=true&useUnicode=true&characterEncoding=utf8"
-JDBC.username: shipping
-JDBC.password: shipping
+JDBC.url: "jdbc:mysql://59.202.54.12:18084/yqgk_cs?autoReconnect=true&autoReconnectForPools=true&useUnicode=true&characterEncoding=utf8"
+JDBC.username: root@szzj_yqfktest_221018#zwy_hz_220331:100001
+JDBC.password: 68I,SStRyXR7KfcUGUq;5
 JDBC.autoCommit: false
