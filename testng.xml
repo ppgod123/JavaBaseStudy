@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="src/test/java/Day11/Tester.java">
+        <groups>
+            <run>
+                <include name="g2"></include>
+            </run>
+        </groups>
+        <classes>
+            <class name="Day11.Tester">
+                <methods>
+<!--                    <include name="test01"/>-->
+<!--                    <include name="test02"/>-->
+<!--                    <include name="test03"/>-->
+<!--                    <include name="test04"/>-->
+                </methods>
+            </class>
+            <class name="Day11.Tester01">
+                <methods>
+<!--                    <include name="test05"/>-->
+<!--                    <include name="test06"/>-->
+<!--                    <include name="test07"/>-->
+<!--                    <include name="test08"/>-->
+                </methods>
+            </class>
+            <class name="Day11.Tester02">
+                <methods>
+<!--                    <include name="test09"/>-->
+<!--                    <include name="test10"/>-->
+<!--                    <include name="test11"/>-->
+<!--                    <include name="test12"/>-->
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+    <!--定义参数-->
+    <parameter name="browserType" value="FireFox"></parameter>
+</suite>
